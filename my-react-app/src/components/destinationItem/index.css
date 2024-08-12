@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+  }
+  .destinationItem {
+    list-style: none;
+    width: 200;
+    margin: 10px;
+
+  }
+  .pic {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .name {
+    padding: 0px;
+    margin: 8px;
+    font-size: small;
+  }
+  
+  

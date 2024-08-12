@@ -1,0 +1,20 @@
+.transactionItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.transactionItem p {
+    margin: 0;
+    flex: 1;
+    text-align: start;
+}
+
+.transactionItem img {
+    cursor: pointer;
+    width: 20px;
+}

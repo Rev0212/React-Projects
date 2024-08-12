@@ -1,0 +1,24 @@
+/* Styling for Pie Chart Container */
+.pieChartContainer {
+    width: 100%;
+    max-width: 600px; /* Adjust this value based on your layout */
+    margin: 30px auto; /* Center the container and add margin */
+    text-align: center;
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Padding around the chart */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+  }
+  
+  .pieChartContainer h2 {
+    font-size: 1.5em; /* Size of the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark color for readability */
+  }
+  
+  /* Ensure the pie chart canvas is responsive */
+  .pieChartContainer canvas {
+    max-width: 100%; /* Prevent overflow */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

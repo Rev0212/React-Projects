@@ -1,0 +1,97 @@
+.header {
+    width: 100%;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.transactionContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.transactionAndHistory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.historyContainer {
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.appBg{
+    padding: 20px;
+}
+
+.transactionItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.transactionItem p {
+    margin: 0;
+    flex: 1;
+    text-align: start;
+}
+
+.pieConatiner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin: 20px;
+}
