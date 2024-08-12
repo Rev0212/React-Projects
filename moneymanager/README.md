@@ -17,4 +17,21 @@ To get started with this project locally, follow these steps:
 ### Prerequisites
 
 - Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
+- cd money-tracker
+-npm install
+-npm install chart.js react-chartjs-2
+-npm start
+This will open the application in your default web browser. By default, it will be available at http://localhost:3000.
+
+
+### Project Structure
+src/components/: Contains the React components for the application.
+
+ExpensePieChart.js: Component to display the pie chart of expenses.
+MoneyDetails.js: Component to display details of the total expenses.
+MoneyManager.js: Main component that integrates functionality for adding and managing expenses.
+TransactionItem.js: Component to display individual transactions.
+src/App.js: Main application component that integrates all other components.
+src/styles.css: Basic styling for the application.
+
 
