@@ -24,14 +24,17 @@ To get started with this project locally, follow these steps:
 This will open the application in your default web browser. By default, it will be available at http://localhost:3000.
 
 
-### Project Structure
-src/components/: Contains the React components for the application.
+## Project Structure
 
-ExpensePieChart.js: Component to display the pie chart of expenses.
-MoneyDetails.js: Component to display details of the total expenses.
-MoneyManager.js: Main component that integrates functionality for adding and managing expenses.
-TransactionItem.js: Component to display individual transactions.
-src/App.js: Main application component that integrates all other components.
-src/styles.css: Basic styling for the application.
+- **`src/components/`**: Contains the React components for the application.
+  - **`ExpensePieChart.js`**: Component to display the pie chart of expenses.
+  - **`MoneyDetails.js`**: Component to display details of the total expenses.
+  - **`MoneyManager.js`**: Main component that integrates functionality for adding and managing expenses.
+  - **`TransactionItem.js`**: Component to display individual transactions.
+
+- **`src/App.js`**: Main application component that integrates all other components.
+
+- **`src/styles.css`**: Basic styling for the application.
+
 
 
