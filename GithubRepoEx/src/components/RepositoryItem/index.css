@@ -1,0 +1,52 @@
+.filters-group-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.category-filters {
+  margin-bottom: 15px;
+}
+
+.category-item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.category-item:hover {
+  background-color: #e0e0e0;
+}
+
+.category-item.active {
+  background-color: #0b69ff;
+  color: white;
+}
+
+.rating-filters img {
+  width: 30px; /* Adjust the size of rating images as needed */
+  height: auto;
+  vertical-align: middle; /* Aligns image with the label text */
+}

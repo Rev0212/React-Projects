@@ -1,0 +1,33 @@
+/* index.css */
+.language-button {
+    background-color: transparent;
+    border: 1px solid #d1d5db;
+    color: #1f2937;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .language-button:hover {
+    background-color: #1f2937;
+    color: #fff;
+  }
+  
+  .language-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  }
+  
+  .language-button.active {
+    background-color: #1f2937;
+    color: #fff;
+  }
+  
+  .language-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
